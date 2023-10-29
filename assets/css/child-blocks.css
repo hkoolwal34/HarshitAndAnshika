@@ -1,0 +1,64 @@
+/*
+Theme Name: WeddingFocus
+Description: Used to style Gutenberg Blocks.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Blocks - General Styles
+2.0 Blocks - Common Blocks
+3.0 Blocks - Formatting
+4.0 Blocks - Layout Elements
+5.0 Blocks - Widgets
+6.0 Blocks - Colors
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Blocks - General Styles
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+6.0 Blocks - Colors
+--------------------------------------------------------------*/
+
+.wp-block-button.is-style-outline .wp-block-button__link,
+.wp-block-button.wp-block-button__link.is-style-outline {
+	color: #000;
+}
+
+.wp-block-file .wp-block-file__button,
+.wp-block-button .wp-block-button__link {
+	background-color: #e35d5c;
+	color: #fff;
+}
+
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-file .wp-block-file__button:focus,
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+	background-color: transparent;
+	color: #000;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 2px solid;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover,
+.wp-block-button.is-style-outline .wp-block-button__link:focus,
+.wp-block-button__link.is-style-outline:hover,
+.wp-block-button__link.is-style-outline:focus {
+    color: #fff;
+    background-color: #e35d5c;
+    border: 2px solid #e35d5c;
+}
+
+.wp-block-pullquote,
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+	border-color: #e35d5c;
+}
+
+.wp-block-pullquote__citation,
+.wp-block-pullquote cite {
+	color: #333;
+}
